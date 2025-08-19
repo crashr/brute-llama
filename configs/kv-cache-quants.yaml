@@ -1,0 +1,21 @@
+server_template: /usr/local/bin/llama-server --host 0.0.0.0 --port 8048 -fa -sm none
+  --no-mmap -ngl 99 -m /data/disk1/models/gemma-3/gemma-3-270m-it-Q8_0.gguf -mg 0
+  -ctk {{ctk}} -ctv {{ctv}} --jinja
+measure_template: "curl -s http://192.168.178.56:8048/v1/chat/completions   -H \"\
+  Content-Type: application/json\"   -H \"Authorization: Bearer none\"   -d '{\n \
+  \   \"model\": \"anymodel\",\n    \"messages\": [\n      {\"role\": \"system\",\
+  \ \"content\": \"give short answers.\"},\n      {\"role\": \"user\", \"content\"\
+  : \"Hi.\"}\n    ],\n    \"seed\": 12345\n  }' | jq '.timings.predicted_per_second'"
+server_url: 192.168.178.56:8048
+debug_mode: []
+server_params:
+- id: 312a6a32-9948-45c2-8ba0-d751a75a3a27
+  name: ctk
+  values: f32;f16;bf16;q8_0;q4_0;q4_1;iq4_nl;q5_0;q5_1
+- id: eba97edf-0e8a-48c8-bb0b-d726b3225e09
+  name: ctv
+  values: f32;f16;bf16;q8_0;q4_0;q4_1;iq4_nl;q5_0;q5_1
+measure_params:
+- id: 031f661c-34fc-4e62-b417-bfc742a7342a
+  name: run
+  values: 1;2;3;4
