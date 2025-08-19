@@ -1,0 +1,29 @@
+/* Dropdown-Hintergrund */
+.Select-control {
+    background-color: #2c2c2c !important;
+    color: white !important;
+}
+
+/* Menü-Hintergrund und Schrift */
+.Select-menu-outer {
+    background-color: #2c2c2c !important;
+    color: white !important;
+}
+
+/* Gewählter Wert */
+.Select-value-label {
+    color: white !important;
+}
+
+
+/*
+.Select-control {
+    background-color: #2c2c2c !important;
+    color: white !important;
+}
+
+.Select-menu-outer {
+    background-color: #2c2c2c !important;
+    color: white !important;
+}
+*/
