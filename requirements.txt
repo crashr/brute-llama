@@ -1,0 +1,5 @@
+dash
+numpy
+pandas
+dash-bootstrap-components
+pyyml
