@@ -19,7 +19,7 @@
    cd brute-llama
    ```
 
-2. **Install dependencies**:
+2. **Install dependencies (venv recommended)**:
    ```bash
    pip install -r requirements.txt
    ```
