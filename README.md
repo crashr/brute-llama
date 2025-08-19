@@ -1,5 +1,8 @@
 # brute-llama
 
+![A brutal llama](assets/brute-llama-01.png)
+*A brutal llama*
+
 **brute-llama** is a handy performance testing and analysis tool, particularly focused on llama.cpp llama-server configuration. It provides a web-based interface to configure, run, and visualize performance tests for various model configurations.
 
 ## Features
