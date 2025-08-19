@@ -79,7 +79,7 @@ measure_params:
 
 ## Screenshots
 
-![Dashboard Screenshot](assets/dashboard.png)
+![Dashboard Screenshot](assets/screenshot-01.png)
 *Example of the brute-llama dashboard showing performance metrics*
 
 ## License
