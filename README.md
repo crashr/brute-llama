@@ -15,7 +15,7 @@
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/brute-llama.git
+   git clone https://github.com/crashr/brute-llama.git
    cd brute-llama
    ```
 
