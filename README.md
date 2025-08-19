@@ -1,4 +1,4 @@
-# brute-llama
+# brute-llama (beta)
 
 ![A brutal llama](assets/brute-llama-01.png)
 
