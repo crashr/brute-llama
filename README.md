@@ -83,8 +83,7 @@ measure_params:
 
 ![Dashboard Screenshot](assets/screenshot-00.png)
 *Configuration section of the brute-llama dashboard*
-
-
+<br><br><br>
 ![Dashboard Screenshot](assets/screenshot-01.png)
 *Example of the brute-llama dashboard showing performance metrics*
 
